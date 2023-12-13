@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  
+}
+
+.main {
+  background-image: url(../images/federico-beccari--lEvfz9MXbE-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-title {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.btn-quote {
+  --bs-btn-color: #ffffff;
+  
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-bg: #050505; 
+  font-size: 14px;
+  transition: 0.5s;
+  width: 200px;
+  height: 50px;
+  border-radius: 100vh;
+}
